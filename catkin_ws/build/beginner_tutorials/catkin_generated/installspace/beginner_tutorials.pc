@@ -1,8 +1,8 @@
-prefix=/home/jon/Documents/ROS/beginner_tutorials/catkin_ws/install
+prefix=/home/jon/ENPM808X/ROS_week10/beginner_tutorials/catkin_ws/install
 
 Name: beginner_tutorials
 Description: Description of beginner_tutorials
 Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lbeginner_tutorials
+Requires: message_runtime roscpp rospy std_msgs

@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/usr/src/googletest")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/jon/Documents/ROS/beginner_tutorials/catkin_ws/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/jon/ENPM808X/ROS_week10/beginner_tutorials/catkin_ws/build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)
